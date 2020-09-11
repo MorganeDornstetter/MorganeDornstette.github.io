@@ -1,0 +1,784 @@
+/** Responsive téléphone **/
+
+@media all and (max-width:600px) {
+    body {
+        margin: 0;
+    }
+
+
+.bleu
+{
+    height:380px;
+}
+.grille
+{
+    grid-gap:0px;
+}
+.case1{
+    width:140px;
+    height:60px;
+}
+.case1>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+}
+.case1>p
+{
+ font-size:20px;
+ top:-14px;
+ left:45px;
+ 
+}
+
+.gris
+{
+    width:140px;
+    height:60px;
+}
+.gris>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+}
+.gris>p
+{
+font-size:20px;
+top:-14px;
+left:45px;
+}
+
+.case2
+{
+    width:140px;
+    height:60px;
+}
+.case2>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+
+}
+.case2>p
+{
+ font-size:20px;
+ top:-14px;
+ left:45px;
+}
+
+.gris2
+{
+    width:140px;
+    height:60px;
+}
+.gris2>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+    
+}
+.gris2>p
+{
+font-size:20px;
+top:-14px;
+left:53px;
+}
+
+.case3{
+    width:140px;
+    height:60px;
+}
+.case3>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+}
+.case3>p
+{
+ font-size:20px;
+ top:-14px;
+ left:55px;
+}
+.gris3
+{
+    width:140px;
+    height:60px;
+}
+.gris3>h1
+{
+    font-size:18px;
+    top:0px;
+    left:-20px;
+}
+.gris3>p
+{
+font-size:20px;
+top:-14px;
+left:55px;
+}
+    /*Menu*/
+
+.menu
+{
+font-size:20px;
+margin-left:64%;
+}
+.boutonmenu
+{
+position:absolute;
+top:1%;
+left:85%;
+}
+.sousmenu
+{
+    position:absolute;
+    top:30px;
+    left:0;
+    max-width:100%;
+}
+ul
+{
+padding-left:0;
+}
+.lien
+{
+    text-decoration:none;
+    color:powderblue;
+}
+
+li
+{
+    font-size:15px;
+}
+
+
+
+    /*Première section = accueil*/
+    .prem {
+        margin-top: 0%;
+        padding-bottom: 9%;
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+        background-image: linear-gradient(16deg, rgba(116, 116, 116, 0.02) 0%, rgba(116, 116, 116, 0.02) 25%, transparent 25%, transparent 96%, rgba(177, 177, 177, 0.02) 96%, rgba(177, 177, 177, 0.02) 100%), linear-gradient(236deg, rgba(148, 148, 148, 0.02) 0%, rgba(148, 148, 148, 0.02) 53%, transparent 53%, transparent 59%, rgba(56, 56, 56, 0.02) 59%, rgba(56, 56, 56, 0.02) 100%), linear-gradient(284deg, rgba(16, 16, 16, 0.02) 0%, rgba(16, 16, 16, 0.02) 46%, transparent 46%, transparent 71%, rgba(181, 181, 181, 0.02) 71%, rgba(181, 181, 181, 0.02) 100%), linear-gradient(316deg, rgba(197, 197, 197, 0.02) 0%, rgba(197, 197, 197, 0.02) 26%, transparent 26%, transparent 49%, rgba(58, 58, 58, 0.02) 49%, rgba(58, 58, 58, 0.02) 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    }
+
+    .prem>img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+    .ère {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 8%;
+        padding-top: 5%;
+        opacity: 0.1;
+        transition: 1s ease-out;
+    }
+
+    .ère:hover {
+        opacity: 1;
+    }
+
+    .future {
+        letter-spacing: 12px;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        margin-top: 12%;
+        margin-left: 2%;
+        font-size: 12px;
+        color: #8CBAFF;
+    }
+
+
+    /*Partie présentation = qui sommes-nous */
+    .deux {
+        background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140, 0.03) 0%, rgba(140, 140, 140, 0.03) 25%, transparent 25%, transparent 100%), radial-gradient(circle at 28% 63%, rgba(143, 143, 143, 0.03) 0%, rgba(143, 143, 143, 0.03) 16%, transparent 16%, transparent 100%), radial-gradient(circle at 81% 56%, rgba(65, 65, 65, 0.03) 0%, rgba(65, 65, 65, 0.03) 12%, transparent 12%, transparent 100%), radial-gradient(circle at 26% 48%, rgba(60, 60, 60, 0.03) 0%, rgba(60, 60, 60, 0.03) 6%, transparent 6%, transparent 100%), radial-gradient(circle at 97% 17%, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 56%, transparent 56%, transparent 100%), radial-gradient(circle at 50% 100%, rgba(25, 25, 25, 0.03) 0%, rgba(25, 25, 25, 0.03) 36%, transparent 36%, transparent 100%), radial-gradient(circle at 55% 52%, rgba(69, 69, 69, 0.03) 0%, rgba(69, 69, 69, 0.03) 6%, transparent 6%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+        padding: 3%;
+    }
+
+    .qui {
+        font-family: 'Rock Salt', cursive;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .flex {
+        display: inline-block;
+    }
+
+    .flex>img {
+        width: 100%;
+        height: 28%;
+        transition: 0.8s ease-out;
+    }
+
+    .flex>img:hover {
+        -webkit-filter: grayscale(100%);
+    }
+
+    .flex>div {
+        font-size: 16px;
+        margin-top: 2%;
+        font-family: 'Caveat', cursive;
+        color: grey;
+    }
+
+    /* Grid d'Yllan */
+    .grid
+    {
+        grid-template-columns:1fr;
+    }
+    h1
+    {
+        padding-left:5px;
+    }
+    #spaco
+    {
+        padding-bottom:20px;
+    }
+    #nasa
+    {
+        padding-bottom:20px;
+    }
+    /* Partie prestations */
+
+    .trois {
+        padding-top: 4%;
+        background-image: radial-gradient(circle at center center, transparent, rgb(255, 255, 255)), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
+    }
+
+    .offre {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 18px;
+        padding-top: 1%;
+    }
+
+    .quand {
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Rock salt', sans-serif;
+        font-size: 12px;
+    }
+
+    .flex2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+
+    }
+
+    .flex2>div {
+        background: #F3F3F3;
+        text-align: center;
+        border: 2px paleturquoise dashed;
+        font-size: 12px;
+        width: 200px;
+        min-height: 80px;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        color: #EDCDEF;
+    }
+
+    .prix {
+        color: lightblue;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+   
+
+
+    /* Contact */
+    .quatre {
+        padding: 4%;
+        background-image: url(https://images.unsplash.com/photo-1452696193712-6cabf5103b63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .quatre:before{
+        content:"";
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:calc(100% - 60px);
+        height:calc(100% - 60px);
+        transform:translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index:0;
+
+}
+    .contact {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+        opacity: 2;
+    }
+
+    .fond {
+        position:relative;
+    }
+
+    .flex3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .flex3>div {
+        margin-top: 3%;
+        font-size: 13px;
+        color: white;
+        font-family: 'Rock salt', sans-serif;
+        text-align: center;
+
+    }
+
+    h3 {
+        font-size: 13px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    #home {
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
+    .flex3>div>img {
+        width: 8%;
+    }
+
+    #mail {
+        text-decoration: none;
+        color: white;
+        transition: 0.6s ease-in;
+    }
+
+    #mail:hover {
+        color: red;
+    }
+
+    #tel {
+        text-decoration: none;
+        color: white;
+        transition: 0.6s ease-in;
+    }
+
+    #tel:hover {
+        color: red;
+    }
+
+    .iframe {
+        margin: auto;
+        display: block;
+        max-width: 80%;
+    }
+
+    .où {
+        margin-top: 2%;
+    }
+}
+
+
+
+
+
+/** Responsive tablette */
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    body {
+        margin: 0;
+    }
+
+       /*Menu*/
+
+
+
+.bleu
+{
+    height:600px;
+}
+.case1{
+    width:350px;
+    height:70px;
+}
+.case1>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.case1>p
+{
+ font-size:28px;
+ top:-5px;
+ left:65px;
+ 
+}
+
+.gris
+{
+    width:350px;
+    height:70px;
+}
+.gris>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.gris>p
+{
+font-size:28px;
+top:-5px;
+left:65px;
+}
+
+.case2
+{
+    width:350px;
+    height:75px;
+}
+.case2>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.case2>p
+{
+ font-size:28px;
+ top:-5px;
+ left:75px;
+}
+
+.gris2
+{
+    width:350px;
+    height:70px;
+}
+.gris2>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.gris2>p
+{
+font-size:28px;
+top:-5px;
+left:75px;
+}
+
+.case3{
+    width:350px;
+    height:70px;
+}
+.case3>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.case3>p
+{
+ font-size:28px;
+ top:-5px;
+ left:65px;
+}
+.gris3
+{
+    width:350px;
+    height:70px;
+}
+.gris3>h1
+{
+    font-size:35px;
+    top:-10px;
+}
+.gris3>p
+{
+font-size:32px;
+top:-5px;
+left:65px;
+}
+.menu
+{
+font-size:28px;
+margin-left:68%;
+}
+.boutonmenu
+{
+position:absolute;
+top:3%;
+left:85%;
+}
+.sousmenu
+{
+    position:absolute;
+    top:30px;
+    left:0;
+    max-width:100%;
+    height:65%;
+    padding-top:150px;
+}
+
+.lien
+{
+    text-decoration:none;
+    color:powderblue;
+}
+
+li
+{
+    font-size:25px;
+    margin-top:15px;
+}
+
+    /*Première section = accueil*/
+    .prem {
+        margin-top: 0%;
+        padding-bottom: 9%;
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+        background-image: linear-gradient(16deg, rgba(116, 116, 116, 0.02) 0%, rgba(116, 116, 116, 0.02) 25%, transparent 25%, transparent 96%, rgba(177, 177, 177, 0.02) 96%, rgba(177, 177, 177, 0.02) 100%), linear-gradient(236deg, rgba(148, 148, 148, 0.02) 0%, rgba(148, 148, 148, 0.02) 53%, transparent 53%, transparent 59%, rgba(56, 56, 56, 0.02) 59%, rgba(56, 56, 56, 0.02) 100%), linear-gradient(284deg, rgba(16, 16, 16, 0.02) 0%, rgba(16, 16, 16, 0.02) 46%, transparent 46%, transparent 71%, rgba(181, 181, 181, 0.02) 71%, rgba(181, 181, 181, 0.02) 100%), linear-gradient(316deg, rgba(197, 197, 197, 0.02) 0%, rgba(197, 197, 197, 0.02) 26%, transparent 26%, transparent 49%, rgba(58, 58, 58, 0.02) 49%, rgba(58, 58, 58, 0.02) 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    }
+
+    .prem>img {
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+
+    }
+
+    .ère {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        opacity: 0.1;
+        transition: 1s ease-out;
+    }
+
+    .ère:hover {
+        opacity: 1;
+    }
+
+    .future {
+        letter-spacing: 20px;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 30px;
+        color: #8CBAFF;
+    }
+
+
+    /*Partie présentation = qui sommes-nous */
+    .deux {
+        background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140, 0.03) 0%, rgba(140, 140, 140, 0.03) 25%, transparent 25%, transparent 100%), radial-gradient(circle at 28% 63%, rgba(143, 143, 143, 0.03) 0%, rgba(143, 143, 143, 0.03) 16%, transparent 16%, transparent 100%), radial-gradient(circle at 81% 56%, rgba(65, 65, 65, 0.03) 0%, rgba(65, 65, 65, 0.03) 12%, transparent 12%, transparent 100%), radial-gradient(circle at 26% 48%, rgba(60, 60, 60, 0.03) 0%, rgba(60, 60, 60, 0.03) 6%, transparent 6%, transparent 100%), radial-gradient(circle at 97% 17%, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 56%, transparent 56%, transparent 100%), radial-gradient(circle at 50% 100%, rgba(25, 25, 25, 0.03) 0%, rgba(25, 25, 25, 0.03) 36%, transparent 36%, transparent 100%), radial-gradient(circle at 55% 52%, rgba(69, 69, 69, 0.03) 0%, rgba(69, 69, 69, 0.03) 6%, transparent 6%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+        padding: 3%;
+    }
+
+    .qui {
+        font-family: 'Rock Salt', cursive;
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .flex>img {
+        width: 50%;
+        height: 100%;
+        transition: 0.8s ease-out;
+    }
+
+    .flex>img:hover {
+        -webkit-filter: grayscale(100%);
+    }
+
+    .flex>div {
+        font-size: 20px;
+        font-family: 'Caveat', cursive;
+        color: grey;
+    }
+
+     /* Grid d'Yllan */
+     .grid
+     {
+         grid-template-columns:1fr;
+     }
+     #spaco
+     {
+         padding-bottom:10px;
+     }
+     #nasa
+     {
+         padding-bottom:10px;
+     }
+
+    /* Partie prestations */
+
+    .trois {
+        padding-top: 4%;
+        background-image: radial-gradient(circle at center center, transparent, rgb(255, 255, 255)), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
+    }
+
+    .offre {
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 28px;
+        padding-top: 1%;
+    }
+
+    .quand {
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Rock salt', sans-serif;
+        font-size: 17px;
+    }
+
+    .flex2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+    }
+
+    .flex2>div {
+        background: #F3F3F3;
+        text-align: center;
+        border: 2px paleturquoise dashed;
+        font-size: 16px;
+        width: 350px;
+        min-height: 100px;
+        margin-bottom: 5%;
+    }
+
+    h2 {
+        color: #EDCDEF;
+    }
+
+    .prix {
+        color: lightblue;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+  
+
+    /* Contact */
+    .quatre {
+        padding: 4%;
+        background-image: url(https://images.unsplash.com/photo-1452696193712-6cabf5103b63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .quatre:before{
+        content:"";
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:calc(100% - 60px);
+        height:calc(100% - 60px);
+        transform:translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index:0;
+
+}
+
+    .contact {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        opacity: 2;
+    }
+
+    .fond {
+        position:relative;
+    }
+
+    .flex3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .flex3>div {
+        margin-top: 3%;
+        font-size: 15px;
+        color: white;
+        font-family: 'Rock salt', sans-serif;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 14px;
+        height: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .flex3>div>img {
+        width: 15%;
+    }
+
+    .icone {
+        margin-bottom: 15%;
+    }
+
+    #home {
+        margin-top: 18%;
+    }
+
+    #mail {
+        text-decoration: none;
+        color: white;
+        transition: 0.6s ease-in;
+    }
+
+    #mail:hover {
+        color: red;
+        margin-top: 230px;
+    }
+
+    #tel {
+        text-decoration: none;
+        color: white;
+        transition: 0.6s ease-in;
+    }
+
+    #tel:hover {
+        color: red;
+    }
+
+    .iframe {
+
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    .où {
+        margin-top: -6%;
+
+    }
+}
